@@ -18,5 +18,5 @@ pyinstaller -F -w -y --clean -n SleepChecker -i .\logo.ico .\main.py
 或使用nuitka打包
 
 ```
-python -m nuitka --disable-console --windows-icon-from-ico=./logo.ico --enable-plugin=pyside6 --onefile main.py
+python -m nuitka --disable-console --windows-icon-from-ico=./logo.ico --onefile main.py
 ```
