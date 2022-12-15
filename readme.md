@@ -6,7 +6,7 @@
 
 ### 重新打包EXE(需要pip安装pyinstaller或nuitka)
 
-使用pyinstaller打包(生成后的应用目录在`dist`,注意将logo.png图片和exe放到一起,托盘图标需要这个文件):
+使用pyinstaller打包(生成后的应用目录在`dist`):
 
 ```
 pyinstaller -F -w -y --clean -n SleepChecker -i .\logo.ico .\main.py
